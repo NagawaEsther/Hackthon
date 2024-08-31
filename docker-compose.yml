@@ -1,0 +1,14 @@
+services:
+  # frontend:
+  #   build:
+  #     context: C:/Users/ESTHER/Desktop/Docker stuff/HFSA_REACT
+  #     dockerfile: Dockerfile
+  #   ports:
+  #     - "80:80"
+
+  backend:
+    build:
+      context: C:/Users/ESTHER/Desktop/SELFMEDIACUTION
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
