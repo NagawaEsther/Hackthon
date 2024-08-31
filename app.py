@@ -14,6 +14,8 @@ def ussd():
   symptom = ""
   illness = ['malaria', 'illumina', 'sleeping sickness']
 
+
+#me
   if text      == '':
       # This is the first request. Note how we start the response with CON
       response  = "CON Welcome to Self MediCaution \n"
